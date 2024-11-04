@@ -1,0 +1,42 @@
+name: zulit
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  app_ui:
+    path: packages/app_ui
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+
+  flutter_localizations:
+    sdk: flutter
+  path_provider: ^2.1.5
+  intl: ^0.19.0
+  package_info_plus: ^8.1.0
+  # These are the package dependencies
+
+  shared:
+    path: packages/shared
+  flex_color_scheme: ^7.3.1
+  hydrated_bloc: ^9.1.5
+  equatable: ^2.0.5
+  go_router: ^14.3.0
+  envied: ^0.5.4+1
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  build_runner: ^2.4.13
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
