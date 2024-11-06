@@ -8,6 +8,9 @@ environment:
   flutter: ^3.24.0
 
 dependencies:
+
+  app_ui:
+    path: ../app_ui
   env:
     path: ../env
   flutter:
