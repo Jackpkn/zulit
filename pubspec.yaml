@@ -19,7 +19,7 @@ dependencies:
   intl: ^0.19.0
   path_provider: ^2.1.5
 
-  package_info_plus: ^8.1.0
+  package_info_plus: ^8.1.1
   # These are the package dependencies
 
   shared:
